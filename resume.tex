@@ -17,7 +17,7 @@
 	{{ADDRESS}} \hspace{1pt} \textbullet \hspace{1pt}
 	{{PHONE}}
 	\hspace{1pt} \textbullet \hspace{1pt} {{EMAIL}} \\
-	https://github.com/jcwwong91 \\
+	https://github.com/jcwwong91
 	\footnotesize
 	\line(1,0){500} \\
 }
@@ -36,21 +36,90 @@
    
    \begin{tabbing}
    	\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-   	{\bf Continental ITS}, Santa Clara, CA \\
-	{\bf Senior Software Engineer} \> \> 1/17 to Present \\
+   	{\bf LinkedIn}, Sunnyvale, CA \\
+	{\bf Staff Software Engineer} \> \> 9/22 to 5/25 \\
+  \end{tabbing}\vspace{-32pt}      % suppress blank line after tabbing
+   Coordinated and drove the unification of various in-house tools into a single triaging experience
+   \vspace{2pt}
+   \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item Designed, coordinated, and implemented v2 of the Inference engine reducing P95 call times from 4s down to $<$100ms, which resulted in faster triaging experiences and new remediation workflows
+	\item Set up the framework to extend the Inference Engine with new event types and backend API server for new APIs
+	\item Championed development, observability, and triaging best practices across 3 cohorts resulting in 99.9\% availability in triaging APIs
+	\item Led the design and implementation of all backend APIs for the Application Triaging and Service Overview Experiences adopted by 1000+ engineers in the first 3 months
+	\item Drove the deprecation of various legacy systems, identifying/addressing  potential gaps and working with 10+ teams to ensure a smooth migration and improved operational efficiency
+	\item Optimized call tree causal analysis pipelines, reducing the fleet size from 180+ machines per datacenter to ~80 and enabling more accurate and timely call tree samples
+	\item Coordinated with 3+ teams to execute migrations/deprecations, while minimizing disruptions to the triaging stack
+	\item Mentored 4+ engineers, resulting in higher team efficiency and several promotions
+   \end{itemize}
+   
+   \vspace{-10pt}
+   \hspace{3pt}{\bf Projects}
+   \vspace{-20pt}
+   \begin{tabbing}
+   	\hspace{0.25in}\= \hspace{0.25in}\= \kill % set up two tab positions
+	\> {\bf Observe (Application Triaging and Service Overview)} \\	   	   
+   	\>\> A React, Python, Go, and Kafka application providing a unified interface for engineers for all\\
+related needs.  Application Triaging focuses on identifying potential root causes during a site incident while\\
+Service Overview aims to allow users to understand the current health of their application\\
+
+   	\> {\bf Inference Engine} \\	   	   
+   	\>\>A series of go microservices that consumed data from various external messaging queues \\
+  normalizing data for triaging/remediation pipelines \\
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+
+  \begin{tabbing}
+   	\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+	{\bf Senior Site Reliability Engineer} \> \> 6/18 to 9/22 \\
+   \end{tabbing}\vspace{-32pt}      % suppress blank line after tabbing
+   Created tools and coordinated triage of site issues for LinkedIn Sales Navigator
+   \vspace{2pt}
+   \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+	\item Drove the development effort for project Clearview surfacing near real time impact to onboarded teams. reducing the average mean time to access of onboarded features from 45 minutes to 15
+	\item Provided 24x7 support for LinkedIn Sales Navigator ensuring 99.9\% availability
+	\item Integrated the build process/deployment of various AWS-based services into the LinkedIn stack
+	\item Automated several manual processes saving more than 50+ hours of engineering time a week
+	\item Provided guidance and support for new features within Sales Navigator and LinkedIn Sales Insights
+	\item Coauthored project bloodhound providing reliability insights and graceful degradation opportunities for various feature flows
+	\item Coordinated/participated  in the execution of post-incident followup items
+   \end{itemize}
+   
+   \vspace{-10pt}
+   \hspace{3pt}{\bf Projects}
+   \vspace{-20pt}
+   \begin{tabbing}
+   	\hspace{0.25in}\= \hspace{0.25in}\= \kill % set up two tab positions
+	\> {\bf Clearview} \\	   	   
+   	\>\>Clearview is an internal project within LinkedIn which aims to enhance and speed up the impact\\ 
+analysis  done by SREs for customer facing services.  It accomplishes this by utilizing the raw events generated\\
+by the real user monitoring system and running them through a rules engine to determine the severity of a\\
+site issue.  It also provides a UI to enable the user to know the exact type of degradation experienced by\\
+the LinkedIn member.\\
+
+   	\> {\bf Bloodhound} \\	   	   
+   	\>\>Bloodhound is a python/java project within LinkedIn where errors are introduced between the \\
+  connections of various microservices.  The errors are then recorded and alerts/reports are generated \\
+from the result giving insight into opportunities for graceful degradation.
+   \end{tabbing}
+   \vspace{-20pt}
+
+   \begin{tabbing}
+   	\hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+   	{\bf Continental Intelligent Transportation Systems}, San Jose, CA \\
+	{\bf Senior Software Engineer} \> \> 1/17 to 5/18 \\
    	{\bf Software Engineer} \> \> 11/15 to 1/17 \\
    \end{tabbing}\vspace{-32pt}      % suppress blank line after tabbing
    Spearheaded the development a new backend for a connected car project.
    \vspace{2pt}
    \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
-	\item Developed various micro services for the new cloud-based Remote Key project in Go
-	\item Designed and developed the foundation for the new cloud backed for the rest of Continental
+	\item Developed various microservices for the new cloud-based Remote Key project in Go
+	\item Designed and developed the foundation for the new cloud backend for the rest of Continental
 	\item Created and maintained build/deployment scripts
 	\item Conducted strict code reviews using Gerrit
 	\item Administered the development/production clusters for other developers/potential clients
-	\item Monitored the day to day operations within the team and coordinated the team to minimize blocking and maintain a smooth working environment
-   	\item Participated in the integration testing of the Remote Key projected leading to the first documented lock/unlock/trunk-opening of an automobile from a cloud-generated key within Continental
-	\item Setup the testing environment/scripts for automated testing through Jenkins
+	\item Monitored the day-to-day operations within the team and coordinated the team to minimize blocking and maintain a smooth working environment
+   	\item Participated in the integration testing of the Remote Key project leading to the first documented lock/unlock/trunk-opening of an automobile from a cloud-generated key within Continental
+	\item Set up the testing environment/scripts for automated testing through Jenkins
+	\item Set up and maintained the CI system/process
    \end{itemize}
    
    \vspace{-10pt}
@@ -61,7 +130,7 @@
    	\> {\bf Remote Cloud Key} \\	   	   
    	\>\> Remote cloud key is a cloud service that allowed people to lock/unlock cars through their smartphone\\
  and a bluetooth dongle.  It also supported the remote start of various cars as well.  All of the microservices were \\
-written in Go and we deployed on kubernetes running on AWS.
+written in Go and we deployed on Kubernetes running on AWS.
    \end{tabbing}
    \vspace{-20pt}
 
@@ -77,41 +146,9 @@ written in Go and we deployed on kubernetes running on AWS.
 	 Contributed in the development of an Intelligent Optical Switch Management Application and 
      pioneered the development of a metadata extraction probe resulting in the launch of a new product used by US Government
 					 \vspace{2pt}
-	 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
-		\item Developed Java/Javascript UI to manage optical switches
-		\item Architected and tested VectorSweep Inspector and VectorSweep Converger application
-		\item Conducted performance prototyping for various versions of the Vectorsweep Inspector
-		\item Evaluated performance and usability of various deep packet extraction libraries
-		\item Researched network protocols and determined the relevant metadata
-		\item Setup and maintained the directory structure, development environment, and operating system configurations for VectorSweep Inspector development
-		\item Integrated and maintained MongoDB, Apache ActiveMQ, Apache SOLR and various other third party components within the Vectorsweep Inspector
-		\item Created test/installation scripts in BASH for metadata probe
-		\item Demonstrated VectorSweep Inspector to potential clients and setup demo environments for evaluations
-		
-   \end{itemize}
-
 
 
    \vspace{-10pt}
-   \hspace{3pt}{\bf Projects}
-	   \vspace{-20pt}
-	   \begin{tabbing}
-	   	\hspace{0.25in}\= \hspace{0.25in}\= \kill % set up two tab positions
-	  \> {\bf VectorSweep Inspector} \\	   	   
-	   \>\>Designed, prototyped, and implemented a high-speed L2-L7 metadata extraction 
-	   application utilizing  \\ \>\> Napatech
-	   High-Speed network cards in C and the management server of the probe utilizing Spring \\ \>\> framework in Java/Javascript.
-		\end{tabbing}
-		\vspace{-30pt}
-		
-		\begin{tabbing}
-			\hspace{0.25in}\= \hspace{0.25in}\= \kill % set up two tab positions
-			\> {\bf VectorSweep Converger} \\	   	   
-			\>\>Architected a data aggregation framework to perform data analytics across multiple VectorSweep \\ \>\> Inspectors instances
-		\end{tabbing}
-		\vspace{-20pt}
-		
-	
 
 %New job section
    \begin{tabbing}
@@ -125,36 +162,22 @@ written in Go and we deployed on kubernetes running on AWS.
 					 in C++ resulting in the launch of additional
 					 research ventures
 					 \vspace{2pt}
-	 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
-	 \item Interfaced RF range sensors, inertial sensors, and GPS data into a data collection application
-	 \end{itemize}
-	 \vspace{-15pt}
-	 \hspace{3pt}{\bf Projects}
-	 \vspace{-20pt}
-	\begin{tabbing}
-	 \hspace{0.25in}\= \hspace{0.25in}\= \kill % set up two tab positions
-	\>{\bf Fruit Mapping Application} \\
-	 \vspace{-30pt}
- \>\> Implemented a fruit growth mapping application in C++.  The application utilized four RF sensors 
-  to \\ \>\> triangulate the fruit growth of various types of fruit with respect to a GPS tracked trailer.
-\end{tabbing}\vspace{-10pt}
 
 \section{Technical Skills}
 \vspace{-1pt}
 \begin{multicols*}{3}
 \begin{itemize}\addtolength{\itemsep}{-0.5\baselineskip}
+
+								\item Python
 								\item Golang (Go)
+								\item Kafka
 								\item Kubernetes
 								\item AWS
 								\item Docker
 								\item GRPC
-								\item C/C++
-								\item GCC, Make
-								\item GDB, Valgrind, Gprof
-								\item Wireshark
+								\item Jenkins
 								\item BASH shell scripting
 								\item Linux Administration
-								\item Java
 								\item Networking Protocols \\(IP, TCP/UDP, HTTP, etc.)
 \end{itemize}
 \end{multicols*}
