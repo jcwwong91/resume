@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(output/*)",
+      "Edit(output/*)",
+      "Bash(pdflatex *)"
+    ]
+  }
+}
