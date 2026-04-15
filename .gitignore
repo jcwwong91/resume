@@ -1,1 +1,6 @@
 personal.tex
+
+*.log
+*.swp
+*.pdf
+output/*

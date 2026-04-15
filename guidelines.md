@@ -1,0 +1,7 @@
+- Keep the resume under 2 pages
+- Optimize for the most recent experience first
+- Aim for 15–25 relevant keywords per resume. This range demonstrates expertise without triggering keyword stuffing detection. Keywords should appear because you're describing your real work, not because you're trying to trick the system.
+- Try to tie impact to each bullet point under the job description.  Focus on selecting criteria with impact (unless it conflicts heavily with ATS)
+- Aim for 75-80% ATS key word match
+- Ensure there is a full story for each bullet point, avoid scattered phrases
+- Omit any gaps from the resume but surface gaps in the terminal
