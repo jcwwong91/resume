@@ -3,6 +3,7 @@
 The goal of this project is to generate a custom tailored resume based on what I have done professionally.
 
 # Sources
+- `README.md` — **do not read**; for human consumption only
 - `projects.md` — all projects I have worked on; contains "What it was NOT" sections — treat as ground truth for all project bullets
 - `/jobs/*.md` — one file per employer (e.g. `linkedin.md`, `continental.md`); contains demonstrated skills and experience; required evidence before listing any skill
 - `personal.tex` contains PII that you don't need to worry about.  Ignore this file and only use it for latex compilation
