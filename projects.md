@@ -52,6 +52,7 @@
 - Go microservices
 - Kafka (external messaging queues)
 - MySQL
+- Distributed Systems
 
 **Outcome:**
 - v2 reduced P95 query latency from 4s to <100ms
@@ -72,17 +73,22 @@
 - Provided a UI showing the exact type of degradation experienced by LinkedIn members
 - Stored the latest per-minute impact results in Redis
 - Provided insights to customer service teams on which customers were affected by site issues
+- RUM events are emitted to a kafka topic via an external app
+- Samza jobs read RUMevents and summarize impact on a per minute basic
 
 **Jason's specific contribution:**
 - Drove the development effort for Clearview
 - Led and architected the design for clearview
 - Authored the Clearview RFC and the Clearview decommission RFC
 - Led a team of 2 to drive the entire development cycle end to end
+- Created the samza job to process RUM events
 
 **Tech:**
 - Python (rules engine / backend)
 - Redis (per-minute impact result storage)
 - Celery job scheduler
+- Kafka
+- Samza
 
 **Outcome:**
 - Reduced mean time to impact assessment for onboarded teams from 45 minutes to 15 minutes
@@ -148,6 +154,7 @@
 - A member of the SRE team to maintain the operational readiness of sales navigator
 - Added/maintained monitoring alerts and 24/7 oncall (automated alert and tier 3 escalation)
 - Worked with the devleopment to push for best practices to ensure new features rolled out with reliability in mind
+- Reviewed designs to ensure they were fault tolerant and could scale
 - Ensured new features launched with proper alerting/monitoring such as lists
 - Acted as a representative for the LSS org for cross functional initiatives
 
@@ -156,6 +163,7 @@
 - Kuberentes
 - AWS (CRM integration)
 - Java
+- Distributed System
 
 **Outcome:**
 - Brought the average SLA from 99.5% (at time of joining) to 99.95%
@@ -178,6 +186,7 @@
 
 **Tech:**
 - Java
+- Distributed System
 
 **Outcome:**
 - Enabled the new product launch of LSI

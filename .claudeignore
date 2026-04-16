@@ -1,0 +1,15 @@
+# Build artifacts
+*.pdf
+*.log
+*.swp
+
+# LaTeX internals
+res.cls
+newcent.sty
+
+# PII
+personal.tex
+personal_example.tex
+
+# Output directory non-source files
+output/*.log
