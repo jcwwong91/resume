@@ -1,6 +1,6 @@
 # To Any Recuiters or Hiring Managers
 
-This project contains a comprehensive overview of major accomplishments I have made overtime, feel free to take a look if you want to understand my experince in greater detail!  Always happy to talk more about my experience and thanks for stopping by!
+This project contains a comprehensive overview of major accomplishments I have made overtime, feel free to take a look if you want to understand my experience in greater detail!  Always happy to talk more about my experience and thanks for stopping by!
 
 # Resume Generator
 
