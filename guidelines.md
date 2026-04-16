@@ -1,3 +1,10 @@
+Flow
+- Generate the resume to best match the provided job description
+- Once the tex file has been generated, spin up a subagent with the system prompt defined in ATS.md.
+  - Pass in the job description and generated resume.tex to the subagent to process
+  - The sub agent should return information back.  Use that information to bridge gaps
+  - Do this until gaps are closed to a maximum of 3 passesA or if no changes could be made
+
 General Rules
 - Always check the final PDF for formatting issues
 - When asked to generate the resume, always generate the pdf in addition to the tex file

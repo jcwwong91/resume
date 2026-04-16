@@ -1,3 +1,5 @@
+**ATS Agent — do not load any project sources, tools not needed outside of ATS.md**
+
 # Resume Project — Claude Context
 
 The goal of this project is to generate a custom tailored resume based on what I have done professionally.
@@ -10,7 +12,8 @@ The goal of this project is to generate a custom tailored resume based on what I
 - `resume.tex` contains the actual resume format
 
 ## Lazy-load only when writing resume content
-- `guidelines.md` — formatting and content rules. **Only read this when actively generating or editing resume content.** Do not read it for planning, Q&A, or exploratory tasks.
+- `guidelines.md` — formatting and content rules. **Only read this when actively generating or editing resume content.** Do not read it for planning, Q&A, or exploratory tasks.  Do not read this for the ATS simulate agent
+- `ATS.md` - System prompt to simulate an ATS  **Only read this in the ATS simulation agent**
 
 ## Rules
 
