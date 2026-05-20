@@ -69,9 +69,10 @@
 
 **What it did:**
 - Real-time impact assessment tool for SREs
-- Consumed raw Real User Monitoring (RUM) events, ran them through a rules engine to determine the severity of a site issue
+- Samza job Consumed raw Real User Monitoring (RUM) events from, and outputted minute granularity metrics into a TSDS
+- Celery job would run python workers that read these granularity metrics and run them through an in-house rules engine to quantify impact.  This impact is stored in redis
+- A state change from the python worker would also be persisted in mysql for post mortem analysis
 - Provided a UI showing the exact type of degradation experienced by LinkedIn members
-- Stored the latest per-minute impact results in Redis
 - Provided insights to customer service teams on which customers were affected by site issues
 - RUM events are emitted to a kafka topic via an external app
 - Samza jobs read RUMevents and summarize impact on a per minute basic
@@ -89,6 +90,7 @@
 - Celery job scheduler
 - Kafka
 - Samza
+- mysql
 
 **Outcome:**
 - Reduced mean time to impact assessment for onboarded teams from 45 minutes to 15 minutes

@@ -10,6 +10,9 @@ General Rules
 - When asked to generate the resume, always generate the pdf in addition to the tex file
 - Always compile from the **project root** (not from `output/`), so `res.cls` is on the TeX search path:
   pdflatex -output-directory=output output/resume_<identifier>.tex
+- Do not make architectural assumptions based on the technology for the individual projects
+- Avoid overexplaining, try to make sure every point has a purpose
+- Do not use any em dashes
 
 Apply to the resume as a whole
 - Keep the resume under 2 pages
@@ -23,6 +26,7 @@ Apply to the resume as a whole
 Apply only to the Career Summary
 - Aim to have a 2-3 sentence max
 - Avoid mentioning specific technologies
+- Avoid specific levels (ie. staff level, principle level)
 
 Apply only to the Job Description Summary
 - Always include a brief (1-3 sentence) summary per role
@@ -33,9 +37,11 @@ Apply only to the Job Description
 - Avoid semicolons
 - Avoid repetition if possible
 - Avoid run on sentences
-- Ensure each bullet flows and is relevant.  Each should tell a story
+- Ensure each bullet flows and is relevant and tells a focused story
 - If certain key concepts are missing that the ATS is probably looking for, weave it in here (ie. I mention microservices, you rephrase to distributed system archiecture).  However ensure that it is grounded in evidence
 - Ensure everything flows naturally
+- When writing project bullets, describe the architecture as a sequential flow (input → processing → output) rather than compressed compound descriptors that can fuse separate components.
+- Do not explain the entire architecture, focus on parts that may be relevant to the job
 
 Apply only to the Technical Skills
 - Aim to keep the number of skills around 10-12.  OK to gover over by 1-2 if we are already missing important ATS key words
