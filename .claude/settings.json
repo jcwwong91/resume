@@ -3,7 +3,10 @@
     "allow": [
       "Write(output/*)",
       "Edit(output/*)",
-      "Bash(pdflatex *)"
+      "Bash(pdflatex *)",
+      "Bash(mv /Users/jason/Documents/resume/output/*)",
+      "Bash(mv -f /Users/jason/Documents/resume/output/*)",
+      "Bash(mkdir -p /Users/jason/Documents/resume/output/*)"
     ]
   }
 }

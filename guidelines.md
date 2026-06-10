@@ -9,7 +9,10 @@ General Rules
 - Always check the final PDF for formatting issues
 - When asked to generate the resume, always generate the pdf in addition to the tex file
 - Always compile from the **project root** (not from `output/`), so `res.cls` is on the TeX search path:
-  pdflatex -output-directory=output output/resume_<identifier>.tex
+  pdflatex -output-directory=output output/..../resume_<identifier>.....
+- separate the different output files into their own folders
+  - output/<date>/<idenifier>/
+- Name the tex files "_resume.tex", the "log _resume.log" and put the jd used in the prompt as "jd.txt".  Keep the resume "resume_<identifier>.pdf"
 - Do not make architectural assumptions based on the technology for the individual projects
 - Avoid overexplaining, try to make sure every point has a purpose
 - Do not use any em dashes

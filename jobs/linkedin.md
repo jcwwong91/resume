@@ -98,6 +98,7 @@
 
 - **Incident Response / On-Call**
   - Provided 24x7 on-call support for LinkedIn Sales Navigator ensuring 99.9% availability
+  - Served as Incident Commander during high-severity incidents, establishing roles and directing mitigation
   - Coordinated and participated in post-incident follow-up items and remediation execution
   - Built Clearview to accelerate SRE incident impact analysis, reducing mean time to access from 45 min to 15 min
   - Drove the development of Bloodhound to proactively surface graceful degradation opportunities before incidents occur

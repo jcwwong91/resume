@@ -17,7 +17,7 @@
 - Built the backend service that served as the API layer and interfaced with the mysql databaser
 
 **Tech:**
-- Python, Go, typescript (not much contribution)
+- Python (Flask), Go, typescript (not much contribution)
 - MySQL (primary datastore)
 - InLogs → Azure Blob Storage (light integration for log data features)
 
@@ -85,7 +85,7 @@
 - Created the samza job to process RUM events
 
 **Tech:**
-- Python (rules engine / backend)
+- Python (Celery scheduler for rules engine; Flask webapp for results display)
 - Redis (per-minute impact result storage)
 - Celery job scheduler
 - Kafka
@@ -97,6 +97,26 @@
 - Provided insights to customer support specialist on which enterprise customers were affected and many of their users were affected
 - Standardized and programically determined the impact accessment for site issues
 - Adopted by all enterpise product facing SREs
+
+---
+
+## ABFD — Auto Bug and Friction Detection
+**Company:** LinkedIn
+
+**What it did:**
+- Machine learning-based anomaly detection system operating on RUM events
+- Detected bugs and friction patterns proactively, before customer escalations
+- Surfaced findings to dev teams and customer support specialists
+
+**Jason's specific contribution:**
+- Co-authored the project
+- Built a Python job to consume the outputs of the daily anomaly detection job and power the backend surfacing results to customer escalation specialists and dev teams
+
+**Tech:**
+- Python
+
+**Outcome:**
+- Enabled proactive bug and friction detection ahead of customer escalations
 
 ---
 
